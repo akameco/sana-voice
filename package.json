@@ -27,7 +27,8 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "sana-voice-list.json"
   ],
   "keywords": [
     "cli-app",
