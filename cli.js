@@ -20,9 +20,9 @@ const cli = meow(`
 
 sanaVoice().then(voice => {
   if (cli.flags.title) {
-    console.log(voice.title)
+    console.log(voice.title) // eslint-disable-line no-console
   }
   if (cli.flags.link) {
-    console.log(voice.link)
+    console.log(voice.link) // eslint-disable-line no-console
   }
 })
