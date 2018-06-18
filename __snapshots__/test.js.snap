@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`findVoice return item 1`] = `
+Array [
+  Object {
+    "link": "http://sanabutton.ojaru.jp/.%2Fsound%2F%E7%9C%8B%E8%AD%B7%E3%81%AE%E6%97%A5%E2%80%A6%E3%81%A8%E3%81%AF%E8%A8%80%E3%81%A3%E3%81%9F%E3%82%82%E3%81%AE%E3%81%AE%2F%E3%81%9D%E3%82%8C%E3%81%99%E3%81%93%E3%81%99%E3%81%93.mp3",
+    "title": "看護の日…とは言ったものの/それすこすこ",
+  },
+]
+`;

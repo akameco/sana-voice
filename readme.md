@@ -17,10 +17,12 @@ $ npm install --global sana-voice
 $ sana-voice --help
 
 	Usage
-	  $ sana-voice [id]
+	  $ sana-voice [query]
 
 	Examples
 	  $ sana-voice
+
+	  $ sana-voice すこすこ
 
 	  $ sana-voice --title
 	  看護看護の日…とは言ったものの/アクリルフィギュア03
