@@ -43,18 +43,19 @@ $ yarn add sana-voice
 const sanaVoice = require('sana-voice')
 
 await sanaVoice();
-//=> 🍆~~~
+//=> 🍆~~~🎤
+
+await sanaVoice('すこすこ');
+//=> すこすこ~~~🎤
 ```
 
 ## API
 
-### `sanaVoice(id?: string) => Promise<{title: string,link: string}>`
+### `sanaVoice(query?: string) => Promise<{title: string,link: string}>`
 
-#### id
+#### query
 
 Type: `string`
-
-id
 
 ## Contributors
 
