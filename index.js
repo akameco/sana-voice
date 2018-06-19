@@ -1,6 +1,5 @@
 // @flow
 const symphogear = require('symphogear')
-const tempWrite = require('temp-write')
 const VOICE_LIST /*: Array<{ title: string, link: string }> */ = require('./sana-voice-list.json')
 
 const findVoice = (query /*: string */) =>
