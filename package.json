@@ -38,7 +38,7 @@
   "dependencies": {
     "got": "^8.3.1",
     "meow": "^3.7.0",
-    "symphogear": "^0.1.0",
+    "symphogear": "^0.2.0",
     "temp-write": "^3.4.0"
   },
   "devDependencies": {
