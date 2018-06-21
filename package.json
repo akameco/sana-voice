@@ -36,11 +36,11 @@
     "sana"
   ],
   "dependencies": {
-    "meow": "^3.7.0",
-    "symphogear": "^0.2.0"
+    "meow": "^5.0.0",
+    "symphogear": "^0.2.2"
   },
   "devDependencies": {
-    "all-contributors-cli": "^5.0.0",
+    "all-contributors-cli": "^5.2.0",
     "eslint": "^4.19.1",
     "eslint-config-precure": "^2.7.0",
     "flow-bin": "^0.74.0",

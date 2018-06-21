@@ -8,7 +8,7 @@ const findVoice = (query /*: string */) =>
 const sanaVoice = async (query /*: ?string */) => {
   const list = query ? findVoice(query) : VOICE_LIST
   if (query && list.length === 0) {
-    throw new Error(`${query} does not match`)
+    throw new Error(`${query} は見つかりまっせん`)
   }
   const item = list[Math.floor(Math.random() * list.length)]
   await symphogear(item.link)
