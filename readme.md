@@ -5,7 +5,13 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-> play sana voice
+> さなボタンから色々再生
+
+```
+$ npx sana-voice てね
+$ npx sana-voice あいあい
+$ npx sana-voice エッチ
+```
 
 ## CLI
 
