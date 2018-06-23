@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 // @flow
+/* eslint no-console: 0 */
 'use strict'
 const meow = require('meow')
 const sanaVoice = require('.')
@@ -37,10 +38,10 @@ const { input, flags } = cli
 sanaVoice(input[0])
   .then(voice => {
     if (flags.title) {
-      console.log(voice.title) // eslint-disable-line no-console
+      console.log(voice.title)
     }
     if (flags.link) {
-      console.log(voice.link) // eslint-disable-line no-console
+      console.log(voice.link)
     }
   })
   .catch(err => {
