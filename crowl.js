@@ -10,6 +10,7 @@ async function fetchVoiceList() /*: Promise<Array<{title: string, link: string}>
   const { body } = await got(HOST)
   const $ = cheerio.load(body)
 
+  // eslint-disable-next-line unicorn/prefer-spread
   return Array.from(
     $('[data-file]').map((i, el) => {
       const dataFile /*: string */ = el.attribs['data-file']
