@@ -38,7 +38,8 @@
   ],
   "dependencies": {
     "meow": "^5.0.0",
-    "symphogear": "^0.2.2"
+    "symphogear": "^0.2.2",
+    "update-notifier": "^2.5.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.2.0",

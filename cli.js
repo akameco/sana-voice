@@ -3,6 +3,7 @@
 /* eslint no-console: 0 */
 'use strict'
 const meow = require('meow')
+const updateNotifier = require('update-notifier')
 const sanaVoice = require('.')
 
 const cli = meow(
@@ -32,6 +33,8 @@ const cli = meow(
     },
   }
 )
+
+updateNotifier({ pkg: cli.pkg }).notify()
 
 const { input, flags } = cli
 
