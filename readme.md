@@ -48,10 +48,10 @@ $ yarn add sana-voice
 ```js
 const sanaVoice = require('sana-voice')
 
-await sanaVoice();
+await sanaVoice()
 //=> 🍆~~~🎤
 
-await sanaVoice('すこすこ');
+await sanaVoice('すこすこ')
 //=> すこすこ~~~🎤
 ```
 
