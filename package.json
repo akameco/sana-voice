@@ -11,7 +11,6 @@
   },
   "scripts": {
     "add-contributor": "all-contributors add",
-    "precommit": "yarn flow && lint-staged",
     "fmt": "prettier --write '**/*.{js,json,md}'",
     "flow": "flow",
     "lint": "eslint .",
@@ -52,5 +51,10 @@
     "jest": "^23.6.0",
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn flow && lint-staged"
+    }
   }
 }
