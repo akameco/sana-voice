@@ -47,6 +47,6 @@ sanaVoice(input[0])
       console.log(voice.link)
     }
   })
-  .catch(err => {
-    console.error(err.message)
+  .catch(error => {
+    console.error(error.message)
   })
